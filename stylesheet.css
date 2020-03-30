@@ -1,0 +1,93 @@
+header {
+    background-color: rgba(34,48,52,0.9);
+    height: 65px;
+    width: 100%;
+}
+
+.header-logo {
+    width: 124px;
+    margin-top: 20px;
+}
+
+.header-left {
+    float: left;
+}
+
+.header-right {
+    float: right;
+    background-color: rgba(255, 255, 255, 0.3);
+    transition: all 0.5s;
+}
+
+.header-right:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.header-right a {
+    padding: 0 25px;
+    line-height: 65px;
+    color: white;
+    display: block;
+
+}
+.container { 
+    width: 1170px;
+    padding: 0px 15px;
+    margin: auto;
+}
+
+.top-wrapper {
+    background-image: url(https://prog-8.com/images/html/advanced/top_en.png);
+    background-size: cover;
+    text-align: center;
+    padding: 180px 0px 100px 0px;
+    color: white;
+}
+
+.top-wrapper h1 {
+    font-size: 45px;
+    letter-spacing: 5px;
+    margin-bottom: 10px;
+    opacity: 0.7;
+}
+
+.top-wrapper p {    
+    padding-bottom: 3px;
+    opacity: 0.7;
+}
+
+.btn-wrapper {
+    margin: 20px 0;
+}
+
+.btn-wrapper p {
+    margin: 10px 0;
+}
+
+.signup {
+    background-color: #239b76;
+    opacity: 0.8;
+}
+
+.facebook {
+    background-color: #3b5998;
+    opacity: 0.8;
+    margin-right: 10px;
+}
+
+.twitter {
+    background-color: #55acee;
+    opacity: 0.8;
+}
+
+.btn {
+    padding: 12px 24px;
+    display: inline-block;
+    color: white;
+    opacity: 0.8;
+    border-radius: 4px    
+}
+.fa {
+    margin-right: 5px;
+}
+
